@@ -1,0 +1,28 @@
+#include <iostream>
+ 
+ using namespace std;
+ 
+int main() {
+  
+    cout << "\nAdd two nums:\n";
+    
+    int a=5 ,b=10;
+    int sum=a+b;
+    
+    cout << sum;
+
+    cout << "\n Sub two numbers:\n";
+    int sub=a-b;
+    cout << sub;
+   
+    cout << "\n Mul two numbers:\n";
+    int mul=a*b;
+    cout << mul;
+    
+     cout << "\n div two numbers:\n";
+    int div=a/b;
+    cout << div;
+  
+  
+    return 0;
+}
